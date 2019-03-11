@@ -1,6 +1,6 @@
 const mapboxgl = require('mapbox-gl');
 
-const createNewMarker = function(type, coord) {
+const createNewMarker = function (map, type, coord) {
   if (type === 'activity') {
     const markerDomEl = document.createElement('div');
     markerDomEl.style.width = '32px';

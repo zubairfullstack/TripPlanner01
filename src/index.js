@@ -15,6 +15,7 @@ markerDomEl.style.width = '32px';
 markerDomEl.style.height = '39px';
 markerDomEl.style.backgroundImage = 'url(http://i.imgur.com/WbMOfMl.png)';
 
-new mapboxgl.Marker(markerDomEl).setLngLat([-87.641, 41.895]).addTo(map);
+//new mapboxgl.Marker(markerDomEl).setLngLat([-87.641, 41.895]).addTo(map);
 
-markers('activity', [-87.6233, 41.8825]);
+markers(map, 'activity', [-87.6410, 41.8950]);
+markers(map, 'activity', [-87.6233, 41.8825]);
