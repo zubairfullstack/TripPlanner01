@@ -1,0 +1,10 @@
+node_modules/
+.monitor
+package-lock.json
+.DS_Store
+.monitor
+.idea
+.jshintrc
+npm-debug.log
+Makefile
+
