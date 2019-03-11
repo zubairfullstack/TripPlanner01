@@ -15,3 +15,4 @@ markerDomEl.style.height = '39px';
 markerDomEl.style.backgroundImage = 'url(http://i.imgur.com/WbMOfMl.png)';
 
 new mapboxgl.Marker(markerDomEl).setLngLat([-87.641, 41.895]).addTo(map);
+console.log('we created a map');
