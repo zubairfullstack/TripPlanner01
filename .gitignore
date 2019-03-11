@@ -7,4 +7,7 @@ package-lock.json
 .jshintrc
 npm-debug.log
 Makefile
+src/bundle.js
+
+
 
